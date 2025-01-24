@@ -160,6 +160,13 @@
     margin-bottom: 0.5rem;
     color: #333;
   }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
   
   /* Contact Section */
   .contact {
